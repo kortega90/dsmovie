@@ -20,8 +20,8 @@ html,body{
     background-color: var(--bg-gray);
 }
 header {
-    background-color:var(--colo-primary) ;
-    color: var(---white);
+    background-color:var(--color-primary) ;
+    color: var(--white);
     height: 60px;
     display: flex;
     align-items: center;
@@ -56,6 +56,7 @@ margin-right: 10px;
     padding: 40px 0;
 }
 .dsmovie-card{
+
     width:100%;
     
 }
@@ -63,7 +64,7 @@ margin-right: 10px;
     width: 100%;
     border-radius:8px 8px 0 0 ;
 }
-.dsmovie-card-desciption{
+.dsmovie-card-description{
     background-color:var(--white);
     padding: 10px 20px 20px 20px;
     display: flex;
@@ -73,7 +74,7 @@ margin-right: 10px;
     border-radius: 0 0 8px 8px ;
     min-height:150px;
 }
-.dsmovie-card-desciption h3{
+.dsmovie-card-description h3{
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 25px ;
@@ -91,4 +92,8 @@ margin-right: 10px;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+}
+.dsmovie-form-container{
+    padding: 40px 0;
+    max-width: 480px;
 }
